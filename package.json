@@ -1,0 +1,27 @@
+{
+  "name": "hiscore",
+  "version": "1.0.0",
+  "description": "Highscore service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oncer/hiscore.git"
+  },
+  "keywords": [
+    "high",
+    "score"
+  ],
+  "author": "Simon Parzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oncer/hiscore/issues"
+  },
+  "homepage": "https://github.com/oncer/hiscore#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
