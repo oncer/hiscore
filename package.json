@@ -23,5 +23,8 @@
   "homepage": "https://github.com/oncer/hiscore#readme",
   "devDependencies": {
     "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
