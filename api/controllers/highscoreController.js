@@ -9,7 +9,7 @@ var scores = [
 ];
 
 exports.list_all_scores = function(req, res) {
-	res.send(JSON.stringify({scores: scores}, null, 2));	
+	res.type('json').send(JSON.stringify({scores: scores}, null, 2));	
 };
 
 exports.replace_scores = function(req, res) {
@@ -18,7 +18,7 @@ exports.replace_scores = function(req, res) {
 		console.log("replacing scores!");
 		scores = input;
 		console.log(scores);
-		res.send(JSON.stringify({scores: scores}, null, 2));
+		res.type('json').send(JSON.stringify({scores: scores}, null, 2));
 	}
 };
 
